@@ -29,18 +29,29 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-# Exclusiones de IntelliJ IDEA
+# ====================================================================
+# exclusiones oficiales de azahartech software
+# ====================================================================
+
+# 1. entorno de desarrollo (IntelliJ IDEA)
 .idea/
 *.iml
+*.iws
+*.ipr
 out/
 
-# Exclusiones de compilación y Maven
-target/
 *.class
+target/
+build/
+*.jar
+*.war
 
-# Archivos del sistema operativo
+# 3. archivos del sistema operativo
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Exclusiones de archivos temporales de registro
+# 4. archivos de registro y temporales
 *.log
+*.tmp
+*.bak
